@@ -1,0 +1,1042 @@
+body{ 
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ .custom-navbar {
+   background-color: black;
+   color: white;
+   height: 70px;
+ }
+ .homeNav li a{
+  color: grey;
+ }
+ .li1{
+  display: flex;
+ }
+ .navicon{
+  margin-top: 12px;
+ }
+ .li3{
+   width: 70px;
+ }
+ .li2,.li3{
+   padding-left: 10px;
+ }
+ .custom-navbar {
+   background-color: black;
+ }
+ 
+ .custom-navbar .nav-link,
+ .custom-navbar .navbar-brand,
+ .custom-navbar .navbar-toggler-icon {
+   color: white;
+ }
+ .custom-navbar .nav-link.active {
+  color: white !important;
+}
+
+ 
+ .custom-navbar .btn {
+   color: black; 
+   background-color: white; 
+   border: none;
+   height: 30px;
+   width: 75px;
+   font-size: 14px;
+   font-weight: 500;
+   margin-top: 5px;
+   border-radius: 100px;
+   padding-bottom: 30px;
+ }
+ .navRightList{
+   margin-right: 8%;
+ }
+ .navbar .navLeftList{
+   margin-left: 8%;
+ }
+ .companyName{
+   font-size: 23px;
+   margin-right: 23px;
+   line-height: 1;
+ }
+ .li5,.li6,.li7,.li8{
+   font-size: 15px;
+   cursor: pointer;
+ }
+ .li5,.li6,.li7{
+  margin-top: 8px;
+ }
+ .navLeftList .list1 .nav-item span,
+.navLeftList .list1 .nav-item a {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  border-radius: 50px;
+}
+.navLeftList .list1 .nav-item.li5 span:hover,
+.navLeftList .list1 .nav-item.li6 span:hover,
+.navLeftList .list1 .nav-item.li7 span:hover,
+.navLeftList .list1 .nav-item.li8 a:hover {
+  background-color: rgb(42, 41, 41);
+}
+.navMenu{
+  font-size: 15px;
+}
+.navMenu:hover{
+  background-color: rgb(42, 41, 41);
+}
+ .navbar .nav-item{
+   color: white;
+ }
+ .rideWrapper{
+  height: 800px;
+  background-color: black;
+  color: white;
+ }
+ .rideImg{
+  height: 550px;
+  width: 85%;
+  margin-top: 80px;
+  margin-left:90px;
+ }
+ .inputContainer {
+  position: relative;
+  width: 100%;
+}
+.inputIcon {
+  position: absolute;
+  top: 43%;
+  left: 15px; 
+  transform: translateY(-50%);
+  pointer-events: none; 
+}
+.rideForm:focus {
+  border-color: #000000; /* Black border on focus */
+  border-width: 3px;
+  outline: none; /* Remove default outline */
+}
+.rideForm {
+  width: 100%;
+  left: 200px;
+  padding-left: 30px; /* Adjust this value based on the size of the icon and padding */
+  height: 100px;
+}
+.rideForm::placeholder{
+  padding-left: 1px;
+}
+.lineBetweenIcons {
+  position: absolute;
+  top: 47%;
+  left: 18.5px; /* Position the line to connect the icons */
+  width: 1px; /* Adjust the thickness of the line */
+  height: calc(100% - 65px); /* Adjust the length of the line */
+  background-color: white; /* Color of the line */
+  z-index: 0; /* Ensure the line is behind the icons */
+  transform: translateY(-50%);
+}
+ .para1{
+  font-size: 55px;
+  font-weight: bold;
+ }
+ .ridePara{
+  width: 38%;
+  margin-left: 7%;
+  margin-top: 165px;
+ }
+ .rideInputWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  position: relative;
+ }
+ .rideForm{
+  height: 45px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+ }
+ .rideButton{
+  background-color: white;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 6px;
+  margin-top:16px;
+  font-weight: 600;
+  font-size: 15px;
+ }
+ .driveWrapper{
+  margin-top: 100px;
+  margin-bottom: 100px;
+ }
+ .driveImg{
+  height: 550px;
+  width: 85%;
+  margin-left: 15%;
+ }
+ .drivePara{
+  width: 69%;
+ }
+ .para3{
+  font-size: 50px;
+  font-weight: 650;
+  color: black;
+  line-height: 1.3;
+  margin-top: -75px;
+  margin-left: 30px;
+ }
+ .para4{
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+ }
+ .driveButton{
+  margin-left: 110px;
+ }
+ .driveButton,.businessButton,.rentButton,.eventButton{
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  border:none;
+ }
+ .driveButton:hover{
+  background-color: rgb(40, 39, 39);
+ }
+ .businessButton:hover{
+  background-color: rgb(40, 39, 39);
+ }
+ .rentButton:hover{
+  background-color: rgb(40, 39, 39);
+ }
+ .eventButton:hover{
+  background-color: rgb(40, 39, 39);
+ }
+ .driveLink,.businessLink{
+  color: rgb(14, 14, 14);
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+  margin-left: 4%;
+  font-size: 17px;
+ }
+ .businessImg,.rentImg{
+  height: 550px;
+  width: 85%;
+ }
+ .businessImg{
+  margin-left: 28px;
+ }
+ .businessPara{
+  width: 73%;
+  margin-left: 16%;
+  margin-top: 130px;
+ }
+ .businessButton{
+  margin-left: 16%;
+ }
+ .businessWrapper{
+  margin-top: 140px;
+  margin-bottom: 140px;
+ }
+ .para5{
+  font-size: 50px;
+  font-weight: 650;
+  line-height: 1.3;
+  color: rgb(51, 51, 51);
+ }
+ .para6{
+  font-size: 17px;
+  line-height: 24px;
+ }
+ .rentWrapper{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 8%;
+ }
+ .rentPara{
+  margin-left: 31px;
+  margin-top: 150px;
+ }
+ .rentImg{
+  margin-left: 5%;
+ }
+ .rentButton{
+  margin-left: 31px;
+ }
+ .para7{
+  margin-top: 110px;
+  font-size: 35px;
+  color: black;
+  font-weight: 650;
+  line-height: 1.2;
+  width: 85%;
+ }
+ .para8{
+  font-size: 17px;
+  line-height: 24px;
+  width: 75%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+ .para9{
+  font-size: 50px;
+  font-weight: 650;
+  line-height: 1.2;
+  color: black;
+  margin-top: 140px;
+ }
+ .eventPara{
+  width: 67%;
+  margin-left: 17%;
+ }
+ .eventButton{
+  margin-left: 17%;
+ }
+ .eventImg{
+  margin-left: 28px;
+  height: 500px;
+  width: 80%;
+ }
+ .qrMainPara{
+  font-size: 34px;
+  font-weight: 650;
+  padding-top: 60px;
+  margin-bottom: 30px;
+  padding-left: 12.5%;
+ }
+ .scannerWrapper{
+  gap: 40px;
+ }
+.scanner1{
+  display: flex;
+  background-color: white;
+  width: 41%;
+  height: 180px;
+  margin-left: 8%;
+}
+.qrImg{
+  height: 92%;
+  width: 33%;
+  padding-top: 20px;
+  padding-left: 18px;
+}
+.para13{
+  font-size: 24px;
+  font-weight: 650;
+  padding-top: 77px;
+  line-height: 0.3;
+  
+}
+.qrPara{
+  padding-left: 20px;
+}
+.scanner2{
+  display: flex;
+  background-color: white;
+  width: 41%;
+  height: 180px;
+}
+.qrWrapper{
+  background-color: whitesmoke;
+  height: 400px;
+  margin-top: 65px;
+}
+.para15{
+  margin-top: 100px;
+  font-size: 25px;
+}
+.para16{
+  font-size: 17px;
+  padding-top: 12px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding-bottom: 10%;
+}
+.appsIcon{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+.appIc{
+  margin-right: 90px;
+}
+.footerCont2{
+  display: flex;
+}
+.footerCont2 .row{
+  display: flex;
+}
+.footerCont2 .row .col-md-6{
+  display: flex;
+}
+
+.footerspan2{
+  display: flex;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+  line-height: 2.2;
+}
+.footer a:hover{
+  color: grey;
+}
+.footer .row{
+  margin-left: 6%;
+}
+.footerRow{
+  margin-left: -1.6%;
+}
+.footer b{
+  font-size: 20px;
+}
+.driveNav{
+  display: flex;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.driveNav span{
+  margin-left: 8.8%;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.driveNav ul{
+  display: flex;
+  list-style: none;
+  gap: 17.5px;
+  margin-left: 31%;
+  margin-top: 7px;
+  font-size: 15px;
+}
+.getStarted{
+  background-color: black;
+  color: white;
+  height: 700px;
+}
+.getStarted .row{
+  padding-top: 30px;
+}
+.drivePara{
+  margin-top: 160px;
+  width:70%;
+  margin-left: 12%;
+}
+.para11{
+  font-size:50px ;
+  font-weight: 650;
+  line-height: 1.2;
+}
+.drivePageImg{
+  width: 85%;
+  height: 550px;
+  margin-left: 3%;
+  margin-top: 50px;
+}
+.driveEndPara{
+  margin-left: 12%;
+}
+.whyDriveLine{
+  width: 9%;
+  margin-left: 175px;
+  margin-top: -13.5px;
+  margin-bottom: 150px;
+}
+.drivePageButton{
+  background-color: white;
+  color: black;
+  padding: 12px 27px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  border:none;
+  margin-left: 12%;
+}
+.drivePageLink{
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.whyMainPara{
+  font-size: 35px;
+  margin-left: 12%;
+  margin-top: 50px;
+  font-weight: 650;
+}
+.whyImg{
+  width: 78%;
+  margin-left: 11%;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.whycol1{
+  margin-left: 7%;
+}
+.whycol2{
+  margin-left: -4%;
+}
+.whycol3{
+  margin-left: -5%;
+  width: 30%;
+}
+.para17{
+  font-size: 19px;
+  padding-top: 15px;
+  margin-top: 10px;
+  font-weight: 550;
+  line-height: 0.6;
+}
+.para18{
+  font-size: 17px;
+}
+.fleetImg1{
+  width: 81%;
+  margin-left: 17%;
+}
+.fleetImg2{
+  width: 81%;
+  margin-left: 20px;
+}
+.para19{
+  margin-left: 17%;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.para20{
+  font-size: 16.5px;
+  width: 69%;
+  margin-left: 17%;
+  margin-top: -10px;
+}
+.para21{
+  margin-left: 3.5%;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.para22{
+  margin-left: 3.5%;
+  font-size: 16.5px;
+  width: 69%;
+  margin-top: -10px;
+}
+.fleetEndPara{
+  margin-left: 25px;
+}
+.fleetLine{
+  margin-top: -13.5px;
+  width: 12.5%;
+  margin-left: 25px;
+}
+.safetyWrapper{
+  margin-top: 120px;
+}
+.safetylp{
+  font-size: 35px;
+  font-weight: 650;
+  margin-left: 11%;
+}
+.safetysp{
+  margin-left: 11%;
+  font-size: 17px;
+}
+.safetyImg1{
+  width: 50px;
+  height: 45px;
+}
+.safetyImg2{
+  width: 50px;
+  height: 45px;
+}
+.safetyImg3{
+  width: 50px;
+  height: 45px;
+}
+.safetyBeg{
+
+  margin-top:32px;
+}
+.safetyLine{
+  margin-top: -13.5px;
+  width: 80px;
+
+}
+.para23{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.safety1{
+  margin-left: 5.5%;
+  margin-top: 30px;
+  width: 30%;
+}
+.safety2{
+  margin-top: 30px;
+  width: 28%;
+}
+.safety3{
+  margin-top: 30px;
+  width: 28%;
+}
+.para25{
+  font-size: 35px;
+  font-weight: 650;
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+.para26{
+  width: 74%;
+  margin-left: 10%;
+  font-size: 17px;
+}
+.uber11Wrapper{
+  margin-top: 130px;
+}
+.uber11EndPara{
+  margin-left: 11%;
+}
+.uber11Line{
+  margin-top: -13.5px;
+  width: 105px;
+  margin-left: 11%;
+}
+.uber11Img{
+  width: 87%;
+ margin-left: -2%;
+}
+.driveSignWrapper{
+  margin-left: 10%;
+  margin-bottom: 60px;
+}
+.para29{
+  font-size: 35px;
+  font-weight: 650;
+}
+.para30{
+  width: 87.25%;
+  font-size: 14.5px;
+  margin-top: 100px;
+}
+.para31{
+  width: 87%;
+  font-size: 14.5px;
+}
+.para32{
+  font-size: 14.5px;
+  width: 87.5%;
+}
+.yourWrapper{
+  background-color: whitesmoke;
+  height: 400px;
+  margin-bottom: 70px;
+  margin-top: 80px;
+}
+.wayPara{
+  font-size: 34px;
+  font-weight: 650;
+  margin-left:10%;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.wayImg{
+  height: 97%;
+  width: 35%;
+  padding: 20px;
+}
+.wayScanner{
+  margin-left: 10%;
+  width: 38%;
+  height: 200px;
+}
+.yourWayPara{
+  margin-left: -3%;
+}
+.busList{
+  gap: 22px;
+}
+.para33{
+  font-size: 48px;
+  font-weight: 650;
+  margin-left: 10%;
+  line-height: 1.2;
+  width: 65%;
+  margin-top: 150px;
+}
+.bestWrapper{
+  background-color: black;
+  color: white;
+}
+.para34{
+  width: 72%; 
+  font-size: 17px;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.bestImg{
+  width: 85%;
+  height: 550px;
+  margin-top: 70px;
+}
+.bestBtn{
+  background-color: white;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  border:none;
+  margin-left: 10%;
+}
+.bestLink{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  margin-left: 4%;
+  font-size: 17px;
+}
+.platformWrapper{
+  background-color: black;
+  color: white;
+  height: 680px;
+}
+.platMainPara{
+  margin-left: 10%;
+  font-size: 35px;
+  font-weight: 650;
+  width: 60%;
+  padding-top: 20px;
+}
+.platcol1{
+  margin-left: 4.5%;
+  width: 41%;
+  margin-top: 30px;
+}
+.para35{
+  font-size: 19px;
+  font-weight: 500;
+}
+.para36{
+  font-size: 16.5px;
+}
+.platImg{
+  height: 45px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+.platcol2{
+  margin-left: 4.5%;
+  margin-top: 30px;
+  width: 43%;
+}
+.platcol3{
+  margin-left: 4.5%;
+  margin-top: 50px;
+  width: 42%;
+}
+.platcol4{
+  margin-left: 4.5%;
+  margin-top: 50px;
+  width: 42.8%;
+}
+.platLink{
+  color: white;
+}
+.platLink:hover{
+  color: grey;
+}
+.levPara{
+  margin-left: 11%;
+  font-size: 34px;
+  font-weight: 650;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.levImg1{
+  margin-left: 20%;
+}
+.levImg2{
+  margin-left: 10%;
+}
+.para37{
+  margin-left: 27%;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.para38{
+  margin-left: 18%;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
+.para39{
+  margin-left: 13%;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.levLink{
+  text-decoration: none;
+}
+.levImg1, .levImg2, .levImg3 {
+  width: 80%;
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.levImg1:hover, .levImg2:hover, .levImg3:hover {
+  transform: scale(1.3); /* Zoom out effect */
+}
+.upfrontWrapper{
+  margin-top: 100px;
+}
+.upfrontPara{
+  font-size: 33px;
+  font-weight: 650;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+.upImg{
+  height: 200px;
+  width: 350px;
+  margin-bottom: 70px;
+  margin-left: 10%;
+}
+.line1 {
+  position: absolute;
+  left: 36.15%;
+  width: 1px; /* Adjust the thickness of the line */
+  height: calc(100% - 552px); /* Adjust the length of the line */
+  background-color: black; /* Color of the line */
+  z-index: 0;
+  top: 140px;
+  transform: translateY(-50%);
+}
+.upfrontWrapper .container{
+  position: relative;
+}
+.line2 {
+  position: absolute;
+  left: 36.15%;
+  width: 1px; /* Adjust the thickness of the line */
+  height: calc(100% - 552px); /* Adjust the length of the line */
+  background-color: black; /* Color of the line */
+  z-index: 0;
+  top: 410px;
+  transform: translateY(-50%);
+}
+.upfrontLink1{
+  color: black;
+  font-weight: 350;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.upfrontLink1:hover{
+  color: rgb(98, 97, 97);
+}
+.upfrontLink2{
+  color: black;
+  font-weight: 350;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.upfrontLink2:hover{
+  color: rgb(98, 97, 97);
+}
+.para44{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-left: -83%;
+}
+.para45{
+  margin-left: -83%;
+  width: 156%;
+  font-size: 16.5px;
+  line-height: 1.4;
+}
+.iconWrapper{
+  margin-top: -7.5px;
+  padding-left: 2.5%;
+  position: relative;
+}
+.joinPara{
+  margin-left: 23%;
+  font-size: 35px;
+  font-weight: 650;
+  margin-right: 25%;
+  padding-top: 60px;
+}
+.joinImg1{
+  width: 85%;
+  margin-left: 14%;
+  margin-top: -20px;
+}
+.joinImg2{
+  width: 85%;
+  margin-top: -20px;
+}
+.joinImg3{
+  width: 85%;
+  margin-left: -7%;
+  margin-top: -20px;
+}
+.joinWrapper{
+  background-color: whitesmoke;
+  height: 900px;
+}
+.joinPart2{
+  margin-top: 60px;
+}
+.para47{
+  width: 53%;
+  margin-left: 11%;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 50px;
+  line-height: 1.3;
+}
+.para48{
+  margin-left: 11%;
+  font-size: 17px;
+  font-weight: 500;
+}
+.para49{
+  margin-left: 11%;
+  font-size: 17px;
+}
+.para50{
+  font-size: 17px;
+}
+.video-container {
+  max-width: 830px;
+}
+iframe {
+  width: 100%;
+  height: 370px; /* Set an appropriate height for your video */
+  border: none; /* Remove border around iframe */
+  margin-left: -20%;
+}
+.chooseWrapper{
+  background-color: #002661;
+  color: white;
+  height: 300px;
+}
+.para51{
+  font-size: 35px;
+  font-weight: 650;
+  margin-left: 24%;
+  margin-right: 21%;
+  text-align: center;
+  padding-top: 60px;
+}
+.chooseBtn{
+  background-color: white;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  border:none;
+  margin-left: 45.5%;
+}
+.intWrapper{
+  margin-bottom: 65px;
+}
+.interestPara{
+  margin-left: 10.5%;
+  font-size: 35px;
+  margin-top: 50px;
+  font-weight: 650;
+  margin-bottom: 30px;
+}
+.intImg1{
+  margin-left: 17%;
+  width: 350px;
+  height: 350px;
+}
+.intImg2{
+  width: 350px;
+  height: 350px;
+  margin-left: 4%;
+}
+.intImg3{
+  width: 350px;
+  height: 350px;
+  margin-left: -9%;
+}
+.para52{
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: 17%;
+  margin-top: 15px;
+  width: 84%;
+  line-height: 1.3;
+}
+.para53{
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: 4%;
+  margin-top: 15px;
+  width: 84%;
+  line-height: 1.3;
+}
+.para54{
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: -9%;
+  margin-top: 15px;
+  width: 84%;
+  line-height: 1.3;
+}
+.para55{
+  margin-left: 11%;
+  margin-top: 60px;
+  font-size: 14px;
+}
+.para56{
+  margin-left: 11%;
+  font-size: 14px;
+  width: 76%;
+}
+.intLink{
+  color: black;
+}
+.intLink:hover{
+  color: grey;
+}
+.reimagineWrapper{
+  background-image: url('../src/Images/uberImg2.jpg');
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(100%); 
+}
